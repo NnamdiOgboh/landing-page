@@ -3,6 +3,8 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
 
 .header {
@@ -10,9 +12,8 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    margin: 0;
-    padding: 18px;
+    
+    padding: 48px;
 }
 
 .links {
@@ -21,3 +22,62 @@ body {
     flex-direction: row;
     gap: 16px;
 }
+
+.body{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 28px 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+p {
+    max-width: 700px;
+}
+
+button.signup {
+    cursor: pointer;
+    padding: 8px 16px;
+    background: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+
+}
+
+img {
+    width: 600px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.text {
+    font-size: 48px;
+    max-width: 800px;
+}
+
+.cards {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 8px 16px;
+}
+
+.container .info {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 32px 52px;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+}
+
