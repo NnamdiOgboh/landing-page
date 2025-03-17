@@ -29,7 +29,7 @@ body {
     padding: 28px 48px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -73,6 +73,7 @@ img {
     justify-content: center;
     gap: 52px;
     padding: 34px 58px;
+    flex-wrap: wrap;
 }
 
 .container img {
@@ -84,23 +85,27 @@ img {
     max-width: 200px;
 }
 
-.quote {
+.section {
     background-color: #e5e7eb;
-    font-style: italic;
-    font-weight: 36px;
+    font-size: 26px;
     color: #1f2937;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     align-items: center;
     padding: 36px;
 }
 
+.quote {
+    font-style: italic;
+    max-width: 500px;
+}
+
 .quoter {
-    text-align: right;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .bottom {
